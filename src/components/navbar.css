@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Glitch+Pop&display=swap');
+
+
+
+
+
+.navbar {
+   
+    background: -webkit-linear-gradient(left,#c63901,#e36b32);
+    color: #fff;
+   
+    border-style:groove;
+
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    font-family: "Anton SC", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+
+    
+    
+    
+  }
+  
+  li {
+    
+    margin-right: 20px;
+    color: red;
+    
+  }
+  
+  a {
+    
+    text-decoration: none;
+    color: wheat;
+  }
+  
+ nav ul li:hover{
+    background: white;
+    height: 100%;
+ }
+  .carrito{
+    float: right;
+    font-size: 30px;
+    font-family:"Anton SC", sans-serif;
+    color: wheat;
+  }
+  
+
+  #carrito{
+    float: right;
+  }
+  .saludo{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+
+  }
+
+ .brand{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Permanent Marker", cursive;
+        color: #d55c2b;
+ }
