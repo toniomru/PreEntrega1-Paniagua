@@ -1,73 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
 
-
+.barra {
+  background-color: #046f57; 
+  padding: 10px 20px; 
+}
 
 
 .navbar {
-   
-    background: -webkit-linear-gradient(left,#c63901,#e36b32);
-    color: #fff;
-   
-    border-style:groove;
+  display: flex;
+  align-items: center; 
+    justify-content: space-between; 
+}
 
-    
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    font-family: "Anton SC", sans-serif;
-    font-size: 30px;
-    font-style: normal;
 
-    
-    
-    
-  }
-  
-  li {
-    
-    margin-right: 20px;
-    color: red;
-    
-  }
-  
-  a {
-    
-    text-decoration: none;
-    color: wheat;
-  }
-  
- nav ul li:hover{
-    background: white;
-    height: 100%;
- }
-  .carrito{
-    float: right;
-    font-size: 30px;
-    font-family:"Anton SC", sans-serif;
-    color: wheat;
-  }
-  
+.brand {
+  flex: 1; 
+}
 
-  #carrito{
-    float: right;
-  }
-  .saludo{
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
 
-  }
+.brand img {
+  height: 150px; 
+}
 
- .brand{
-    text-align: center;
-    font-size: 60px;
-    font-family: "Permanent Marker", cursive;
-        color: #d55c2b;
- }
+
+.menu-container {
+  flex: 2; 
+  display: flex;
+  justify-content: center; 
+}
+
+
+.font-nav {
+  display: flex;
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+
+.font-nav li {
+  margin: 0 15px; 
+}
+
+
+.font-nav a {
+  font-family: "Teko", sans-serif;
+  text-decoration: none;
+  color: white; 
+  font-size: 50px; 
+  padding: 5px 10px; 
+}
+
+
+.font-nav a:hover {
+  background-color: #0b9278; 
+  border-radius: 4px; 
+}
+
+
+.cart-widget {
+  flex: 1;
+  
+}
+.carrito {
+  display: flex;
+  align-items: center; 
+  color: white; 
+  font-size: 16px; 
+}
+
+.carrito p {
+  margin: 0 10px; 
+  font-weight: bold;
+  font-family:"Teko", sans-serif ;
+  font-size: 30px; 
+}
+
+.carrito img {
+  height: 40px; 
+  width: auto; 
+}
